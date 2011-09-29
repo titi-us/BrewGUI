@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AC78092143532F200B13B1B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC78091143532F200B13B1B /* Cocoa.framework */; };
+		5AC7809C143532F200B13B1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AC7809A143532F200B13B1B /* InfoPlist.strings */; };
+		5AC7809E143532F200B13B1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7809D143532F200B13B1B /* main.m */; };
+		5AC780A2143532F200B13B1B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5AC780A0143532F200B13B1B /* Credits.rtf */; };
+		5AC780A5143532F200B13B1B /* BrewGUIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC780A4143532F200B13B1B /* BrewGUIAppDelegate.m */; };
+		5AC780A8143532F200B13B1B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AC780A6143532F200B13B1B /* MainMenu.xib */; };
+		5AC780B0143532F200B13B1B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC780AF143532F200B13B1B /* SenTestingKit.framework */; };
+		5AC780B1143532F200B13B1B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC78091143532F200B13B1B /* Cocoa.framework */; };
+		5AC780B9143532F200B13B1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AC780B7143532F200B13B1B /* InfoPlist.strings */; };
+		5AC780BB143532F200B13B1B /* BrewGUITests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5AC780BA143532F200B13B1B /* BrewGUITests.h */; };
+		5AC780BD143532F200B13B1B /* BrewGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC780BC143532F200B13B1B /* BrewGUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AC780B2143532F200B13B1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AC78084143532F200B13B1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AC7808C143532F200B13B1B;
+			remoteInfo = BrewGUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AC7808D143532F200B13B1B /* BrewGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrewGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC78091143532F200B13B1B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5AC78094143532F200B13B1B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5AC78095143532F200B13B1B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5AC78096143532F200B13B1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AC78099143532F200B13B1B /* BrewGUI-Info.plist */ = {isa = PBXFileReference; path = "BrewGUI-Info.plist"; sourceTree = "<group>"; };
+		5AC7809B143532F200B13B1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AC7809D143532F200B13B1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AC7809F143532F200B13B1B /* BrewGUI-Prefix.pch */ = {isa = PBXFileReference; path = "BrewGUI-Prefix.pch"; sourceTree = "<group>"; };
+		5AC780A1143532F200B13B1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5AC780A3143532F200B13B1B /* BrewGUIAppDelegate.h */ = {isa = PBXFileReference; path = BrewGUIAppDelegate.h; sourceTree = "<group>"; };
+		5AC780A4143532F200B13B1B /* BrewGUIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrewGUIAppDelegate.m; sourceTree = "<group>"; };
+		5AC780A7143532F200B13B1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5AC780AE143532F200B13B1B /* BrewGUITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrewGUITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC780AF143532F200B13B1B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5AC780B6143532F200B13B1B /* BrewGUITests-Info.plist */ = {isa = PBXFileReference; path = "BrewGUITests-Info.plist"; sourceTree = "<group>"; };
+		5AC780B8143532F200B13B1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AC780BA143532F200B13B1B /* BrewGUITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrewGUITests.h; sourceTree = "<group>"; };
+		5AC780BC143532F200B13B1B /* BrewGUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrewGUITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AC7808A143532F200B13B1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC78092143532F200B13B1B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AC780AA143532F200B13B1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC780B0143532F200B13B1B /* SenTestingKit.framework in Frameworks */,
+				5AC780B1143532F200B13B1B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AC78082143532F200B13B1B = {
+			isa = PBXGroup;
+			children = (
+				5AC78097143532F200B13B1B /* BrewGUI */,
+				5AC780B4143532F200B13B1B /* BrewGUITests */,
+				5AC78090143532F200B13B1B /* Frameworks */,
+				5AC7808E143532F200B13B1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AC7808E143532F200B13B1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AC7808D143532F200B13B1B /* BrewGUI.app */,
+				5AC780AE143532F200B13B1B /* BrewGUITests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AC78090143532F200B13B1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AC78091143532F200B13B1B /* Cocoa.framework */,
+				5AC780AF143532F200B13B1B /* SenTestingKit.framework */,
+				5AC78093143532F200B13B1B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AC78093143532F200B13B1B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AC78094143532F200B13B1B /* AppKit.framework */,
+				5AC78095143532F200B13B1B /* CoreData.framework */,
+				5AC78096143532F200B13B1B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5AC78097143532F200B13B1B /* BrewGUI */ = {
+			isa = PBXGroup;
+			children = (
+				5AC780A3143532F200B13B1B /* BrewGUIAppDelegate.h */,
+				5AC780A4143532F200B13B1B /* BrewGUIAppDelegate.m */,
+				5AC780A6143532F200B13B1B /* MainMenu.xib */,
+				5AC78098143532F200B13B1B /* Supporting Files */,
+			);
+			path = BrewGUI;
+			sourceTree = "<group>";
+		};
+		5AC78098143532F200B13B1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AC78099143532F200B13B1B /* BrewGUI-Info.plist */,
+				5AC7809A143532F200B13B1B /* InfoPlist.strings */,
+				5AC7809D143532F200B13B1B /* main.m */,
+				5AC7809F143532F200B13B1B /* BrewGUI-Prefix.pch */,
+				5AC780A0143532F200B13B1B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AC780B4143532F200B13B1B /* BrewGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AC780BA143532F200B13B1B /* BrewGUITests.h */,
+				5AC780BC143532F200B13B1B /* BrewGUITests.m */,
+				5AC780B5143532F200B13B1B /* Supporting Files */,
+			);
+			path = BrewGUITests;
+			sourceTree = "<group>";
+		};
+		5AC780B5143532F200B13B1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AC780B6143532F200B13B1B /* BrewGUITests-Info.plist */,
+				5AC780B7143532F200B13B1B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AC7808C143532F200B13B1B /* BrewGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AC780C0143532F200B13B1B /* Build configuration list for PBXNativeTarget "BrewGUI" */;
+			buildPhases = (
+				5AC78089143532F200B13B1B /* Sources */,
+				5AC7808A143532F200B13B1B /* Frameworks */,
+				5AC7808B143532F200B13B1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrewGUI;
+			productName = BrewGUI;
+			productReference = 5AC7808D143532F200B13B1B /* BrewGUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AC780AD143532F200B13B1B /* BrewGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AC780C3143532F200B13B1B /* Build configuration list for PBXNativeTarget "BrewGUITests" */;
+			buildPhases = (
+				5AC780A9143532F200B13B1B /* Sources */,
+				5AC780AA143532F200B13B1B /* Frameworks */,
+				5AC780AB143532F200B13B1B /* Resources */,
+				5AC780AC143532F200B13B1B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AC780B3143532F200B13B1B /* PBXTargetDependency */,
+			);
+			name = BrewGUITests;
+			productName = BrewGUITests;
+			productReference = 5AC780AE143532F200B13B1B /* BrewGUITests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AC78084143532F200B13B1B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5AC78087143532F200B13B1B /* Build configuration list for PBXProject "BrewGUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AC78082143532F200B13B1B;
+			productRefGroup = 5AC7808E143532F200B13B1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AC7808C143532F200B13B1B /* BrewGUI */,
+				5AC780AD143532F200B13B1B /* BrewGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AC7808B143532F200B13B1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC7809C143532F200B13B1B /* InfoPlist.strings in Resources */,
+				5AC780A2143532F200B13B1B /* Credits.rtf in Resources */,
+				5AC780A8143532F200B13B1B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AC780AB143532F200B13B1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC780B9143532F200B13B1B /* InfoPlist.strings in Resources */,
+				5AC780BB143532F200B13B1B /* BrewGUITests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AC780AC143532F200B13B1B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AC78089143532F200B13B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC7809E143532F200B13B1B /* main.m in Sources */,
+				5AC780A5143532F200B13B1B /* BrewGUIAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AC780A9143532F200B13B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC780BD143532F200B13B1B /* BrewGUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AC780B3143532F200B13B1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AC7808C143532F200B13B1B /* BrewGUI */;
+			targetProxy = 5AC780B2143532F200B13B1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AC7809A143532F200B13B1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AC7809B143532F200B13B1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5AC780A0143532F200B13B1B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AC780A1143532F200B13B1B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5AC780A6143532F200B13B1B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AC780A7143532F200B13B1B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5AC780B7143532F200B13B1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AC780B8143532F200B13B1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AC780BE143532F200B13B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5AC780BF143532F200B13B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5AC780C1143532F200B13B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrewGUI/BrewGUI-Prefix.pch";
+				INFOPLIST_FILE = "BrewGUI/BrewGUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5AC780C2143532F200B13B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrewGUI/BrewGUI-Prefix.pch";
+				INFOPLIST_FILE = "BrewGUI/BrewGUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5AC780C4143532F200B13B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrewGUI.app/Contents/MacOS/BrewGUI";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrewGUI/BrewGUI-Prefix.pch";
+				INFOPLIST_FILE = "BrewGUITests/BrewGUITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5AC780C5143532F200B13B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrewGUI.app/Contents/MacOS/BrewGUI";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrewGUI/BrewGUI-Prefix.pch";
+				INFOPLIST_FILE = "BrewGUITests/BrewGUITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AC78087143532F200B13B1B /* Build configuration list for PBXProject "BrewGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC780BE143532F200B13B1B /* Debug */,
+				5AC780BF143532F200B13B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AC780C0143532F200B13B1B /* Build configuration list for PBXNativeTarget "BrewGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC780C1143532F200B13B1B /* Debug */,
+				5AC780C2143532F200B13B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AC780C3143532F200B13B1B /* Build configuration list for PBXNativeTarget "BrewGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC780C4143532F200B13B1B /* Debug */,
+				5AC780C5143532F200B13B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AC78084143532F200B13B1B /* Project object */;
+}
